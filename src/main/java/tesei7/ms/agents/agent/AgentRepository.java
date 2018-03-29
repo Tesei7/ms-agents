@@ -1,4 +1,4 @@
-package agents.agent;
+package tesei7.ms.agents.agent;
 
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.repository.query.Param;

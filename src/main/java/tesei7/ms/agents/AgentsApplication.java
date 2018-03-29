@@ -1,4 +1,4 @@
-package agents;
+package tesei7.ms.agents;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
