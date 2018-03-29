@@ -29,10 +29,11 @@
         </dependencies>
     </dependencyManagement>
 
+    <!--Docker build Config-->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
-        <start-class>tesei7.ms.agents.Application</start-class>
+        <start-class>tesei7.ms.agents.AgentsApplication</start-class>
         <docker.image.name>tesei7/ms-agents</docker.image.name>
     </properties>
 
