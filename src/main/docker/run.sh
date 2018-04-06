@@ -14,7 +14,7 @@ while ! `nc -z ms-confserver $CONFIGSERVER_PORT `; do sleep 3; done
 echo ">>>>>>>>>>>> Configuration Server has started"
 
 echo "********************************************************"
-echo "Starting License Server with Configuration Service :  $CONFIGSERVER_URI";
+echo "Starting Agents with Configuration Service :  $CONFIGSERVER_URI";
 echo "********************************************************"
 java -Djava.security.egd=file:/dev/./urandom                        \
      -Deureka.client.serviceUrl.defaultZone=$EUREKASERVER_URI       \
