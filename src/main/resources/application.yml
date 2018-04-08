@@ -1,1 +1,6 @@
 spring.data.rest.basePath: /api/v1
+logging:
+    level:
+      com.netflix: WARN
+      org.springframework.web: WARN
+      tesei7.ms: DEBUG
