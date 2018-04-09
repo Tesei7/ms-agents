@@ -18,6 +18,8 @@
   --env ENCRYPT_KEY=\*\*\*\*\*\*
   --env EUREKASERVER_URI=http://ms-eureka:8761/eureka/
   --env EUREKASERVER_PORT=8761
+  --env ZIPKIN_PORT=9411
+  --env ZIPKIN_URI=http://ms-zipkin:9411
   --name ms-agents
   --network ms-net
   tesei7/ms-agents:latest**
